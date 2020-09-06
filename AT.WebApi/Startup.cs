@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AT.DataAccess.Data;
-using AT.DataAccess.Repositories;
+using AT.DataAccess.Repository;
 using AT.IDataAccess.IRepository;
 using AT.Model.Common;
 using AT.Model.MapperProfiles;
