@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AT.DataAccess.Data;
+using AT.DataAccess.Repositories;
+using AT.IDataAccess.IRepository;
+using AT.Model.Common;
+using AT.Model.MapperProfiles;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,7 +41,18 @@ namespace AT.WebApi
                 }
             );
             services.AddDbContext<ATDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IRepository<User>,UserRepository>();
+            var mappingConfig = new MapperConfiguration(mc => 
+                {
+                    mc.AddProfile(new UserUserForList());
+                    mc.AddProfile(new UserForRegistrationUser());
+                }
+            );
 
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

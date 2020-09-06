@@ -3,15 +3,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1"/>
+    <PackageReference Include="AutoMapper" Version="10.0.0"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AT.Model\AT.Model.csproj" />
-    <ProjectReference Include="..\AT.IModel\AT.IModel.csproj" />
-    <ProjectReference Include="..\AT.DataAccess\AT.DataAccess.csproj" />
-    <ProjectReference Include="..\AT.IDataAccess\AT.IDataAccess.csproj" />
+    <ProjectReference Include="..\AT.Model\AT.Model.csproj"/>
+    <ProjectReference Include="..\AT.IModel\AT.IModel.csproj"/>
+    <ProjectReference Include="..\AT.DataAccess\AT.DataAccess.csproj"/>
+    <ProjectReference Include="..\AT.IDataAccess\AT.IDataAccess.csproj"/>
   </ItemGroup>
 </Project>
