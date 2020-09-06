@@ -1,0 +1,14 @@
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.IDataAccess.deps.json
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.IDataAccess.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.IDataAccess.pdb
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.IModel.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.Model.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.IModel.pdb
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\bin\Debug\netcoreapp3.1\AT.Model.pdb
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.csprojAssemblyReference.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.AssemblyInfoInputs.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.AssemblyInfo.cs
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.csproj.CopyComplete
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IDataAccess\obj\Debug\netcoreapp3.1\AT.IDataAccess.pdb

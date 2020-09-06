@@ -1,0 +1,9 @@
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\bin\Debug\netcoreapp3.1\AT.IModel.deps.json
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\bin\Debug\netcoreapp3.1\AT.IModel.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\bin\Debug\netcoreapp3.1\AT.IModel.pdb
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\obj\Debug\netcoreapp3.1\AT.IModel.csprojAssemblyReference.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\obj\Debug\netcoreapp3.1\AT.IModel.AssemblyInfoInputs.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\obj\Debug\netcoreapp3.1\AT.IModel.AssemblyInfo.cs
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\obj\Debug\netcoreapp3.1\AT.IModel.csproj.CoreCompileInputs.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\obj\Debug\netcoreapp3.1\AT.IModel.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.IModel\obj\Debug\netcoreapp3.1\AT.IModel.pdb

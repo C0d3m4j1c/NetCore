@@ -1,0 +1,362 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.DataAccess\\AT.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.DataAccess\\AT.DataAccess.csproj",
+        "projectName": "AT.DataAccess",
+        "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.DataAccess\\AT.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\salvador.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj"
+              },
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj"
+              },
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj",
+        "projectName": "AT.IDataAccess",
+        "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj",
+        "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\salvador.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj"
+              },
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj",
+        "projectName": "AT.IModel",
+        "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj",
+        "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\salvador.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
+        "projectName": "AT.Model",
+        "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
+        "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\salvador.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj",
+        "projectName": "AT.WebApi",
+        "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj",
+        "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\salvador.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.DataAccess\\AT.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.DataAccess\\AT.DataAccess.csproj"
+              },
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj"
+              },
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj"
+              },
+              "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

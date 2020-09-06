@@ -1,0 +1,12 @@
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\bin\Debug\netcoreapp3.1\AT.Model.deps.json
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\bin\Debug\netcoreapp3.1\AT.Model.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\bin\Debug\netcoreapp3.1\AT.Model.pdb
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\bin\Debug\netcoreapp3.1\AT.IModel.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\bin\Debug\netcoreapp3.1\AT.IModel.pdb
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csprojAssemblyReference.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.AssemblyInfoInputs.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.AssemblyInfo.cs
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csproj.CoreCompileInputs.cache
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csproj.CopyComplete
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.dll
+C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.pdb
