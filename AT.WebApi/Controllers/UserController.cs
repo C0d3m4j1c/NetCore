@@ -40,14 +40,14 @@ namespace AT.WebApi.Controllers
         
 
         [HttpDelete]
-        public ActionResult DeleteUser(User User)
+        public ActionResult Delete(User User)
         {
             userRepository.Delete(User);
             return Ok();
         }
 
         [HttpPut]
-        public ActionResult UpdateUser(User User)
+        public ActionResult Update(User User)
         {
             var userUpdated = userRepository.Update(User);
             return Ok(userUpdated);

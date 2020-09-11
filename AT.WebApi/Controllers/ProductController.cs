@@ -27,7 +27,7 @@ namespace AT.WebApi.Controllers
         }
 
         [HttpGet("Id")]
-        public ActionResult<User> GetById(int Id)
+        public ActionResult<Product> GetById(int Id)
         {
             return Ok(mapper.Map<Product,ProductForList>(productRepository.GetById(Id)));
         }
@@ -39,14 +39,14 @@ namespace AT.WebApi.Controllers
         }
 
         [HttpDelete]
-        public ActionResult DeleteUser(ProductForDeletion ProductToBeDeleted)
+        public ActionResult Delete(ProductForDeletion ProductToBeDeleted)
         {
             productRepository.Delete(mapper.Map<ProductForDeletion, Product>(ProductToBeDeleted));
             return Ok();
         }
 
         [HttpPut]
-        public ActionResult UpdateUser(ProductForUpdate ProductToBeUpdated)
+        public ActionResult Update(ProductForUpdate ProductToBeUpdated)
         {
             var productUpdated = productRepository.Update(mapper.Map<ProductForUpdate, Product>(ProductToBeUpdated));
             return Ok(productUpdated);

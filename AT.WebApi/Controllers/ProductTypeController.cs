@@ -40,14 +40,14 @@ namespace AT.WebApi.Controllers
         }
 
         [HttpDelete]
-        public ActionResult DeleteUser(ProductTypeForDeletion ProductTypeToBeDeleted)
+        public ActionResult Delete(ProductTypeForDeletion ProductTypeToBeDeleted)
         {
             productTypesRepository.Delete(mapper.Map<ProductTypeForDeletion, ProductType>(ProductTypeToBeDeleted));
             return Ok();
         }
 
         [HttpPut]
-        public ActionResult UpdateUser(ProductTypeForUpdate ProductTypeToBeUpdated)
+        public ActionResult Update(ProductTypeForUpdate ProductTypeToBeUpdated)
         {
             var productTypeUpdated = productTypesRepository.Update(mapper.Map<ProductTypeForUpdate, ProductType>(ProductTypeToBeUpdated));
             return Ok(productTypeUpdated);
