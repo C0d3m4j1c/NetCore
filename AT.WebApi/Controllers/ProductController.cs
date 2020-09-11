@@ -13,41 +13,42 @@ namespace AT.WebApi.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IRepository<Product> productRepository;
-        
-        public ProductController(IRepository<Product> productRepository)
+        private readonly IMapper mapper;
+        public ProductController(IRepository<Product> productRepository, IMapper mapper)
         {
+            this.mapper = mapper;
             this.productRepository = productRepository;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Product>> GetAll()
+        public ActionResult<IEnumerable<ProductForList>> GetAll()
         {
-            return Ok(productRepository.GetAll().ToList());
+            return Ok(productRepository.GetAll().ToList().Select(mapper.Map<Product,ProductForList>));
         }
 
         [HttpGet("Id")]
-        public ActionResult<Product> GetById(int Id)
+        public ActionResult<User> GetById(int Id)
         {
-            return Ok(productRepository.GetById(Id));
+            return Ok(mapper.Map<Product,ProductForList>(productRepository.GetById(Id)));
         }
 
         [HttpPost]
-        public ActionResult<Product> Create(Product ProductToBeCreated)
+        public ActionResult<Product> Create(ProductForRegistration ProductToBeCreated)
         {
-            return Ok(productRepository.Create(ProductToBeCreated));
+            return Ok(productRepository.Create(mapper.Map<ProductForRegistration, Product>(ProductToBeCreated)));
         }
 
         [HttpDelete]
-        public ActionResult DeleteUser(Product Product)
+        public ActionResult DeleteUser(ProductForDeletion ProductToBeDeleted)
         {
-            productRepository.Delete(Product);
+            productRepository.Delete(mapper.Map<ProductForDeletion, Product>(ProductToBeDeleted));
             return Ok();
         }
 
         [HttpPut]
-        public ActionResult UpdateUser(Product Product)
+        public ActionResult UpdateUser(ProductForUpdate ProductToBeUpdated)
         {
-            var productUpdated = productRepository.Update(Product);
+            var productUpdated = productRepository.Update(mapper.Map<ProductForUpdate, Product>(ProductToBeUpdated));
             return Ok(productUpdated);
         }
     }

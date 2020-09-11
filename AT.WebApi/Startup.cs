@@ -48,6 +48,10 @@ namespace AT.WebApi
                 {
                     mc.AddProfile(new UserUserForList());
                     mc.AddProfile(new UserForRegistrationUser());
+                    mc.AddProfile(new ProductProductForList());
+                    mc.AddProfile(new ProductForRegistrationProduct());
+                    mc.AddProfile(new ProductForDeletionProduct());
+                    mc.AddProfile(new ProductForUpdateProduct());
                 }
             );
 
