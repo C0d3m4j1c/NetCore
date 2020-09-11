@@ -5,7 +5,7 @@ namespace AT.Model.Common
     {
         public int Id {get; set;}
 
-        public int ProductName {get; set;}
+        public string ProductName {get; set;}
 
         public int ProductTypeId {get; set;}
 
