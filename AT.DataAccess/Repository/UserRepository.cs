@@ -42,7 +42,15 @@ namespace AT.DataAccess.Repository
 
         public User Update(User Entity)
         {
-            throw new System.NotImplementedException();
+            var userToBeUpdated = context.Users.Find(Entity.Id);
+            if(userToBeUpdated != null)
+            {
+                userToBeUpdated.UserName = Entity.UserName;
+                userToBeUpdated.IsDeleted = Entity.IsDeleted;
+                context.Users.Update(userToBeUpdated);
+                context.SaveChanges();
+            }
+            return userToBeUpdated; 
         }
     }
 }

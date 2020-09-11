@@ -45,5 +45,12 @@ namespace AT.WebApi.Controllers
             userRepository.Delete(User);
             return Ok();
         }
+
+        [HttpPut]
+        public ActionResult UpdateUser(User User)
+        {
+            var userUpdated = userRepository.Update(User);
+            return Ok(userUpdated);
+        }
     }
 }
