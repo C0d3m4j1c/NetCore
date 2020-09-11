@@ -28,6 +28,7 @@ namespace AT.DataAccess.Repository
                 context.Users.Remove(userToBeDeleted);
                 context.SaveChanges();
             }
+            
         }
 
         public IEnumerable<User> GetAll()
