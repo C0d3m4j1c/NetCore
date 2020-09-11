@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
+      "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
       "projectName": "AT.Model",
-      "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
+      "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
       "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\obj\\",
+      "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -230,8 +230,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
-              "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj"
+            "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+              "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj"
             }
           }
         }
