@@ -13,5 +13,7 @@ namespace AT.Model.Common
         public string ProductTypeName {get; set;}
 
         public ICollection<Product> Products {get; set;}
+
+        public string Comments {get; set;}
     }
 }
