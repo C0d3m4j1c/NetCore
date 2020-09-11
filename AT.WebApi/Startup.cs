@@ -43,6 +43,7 @@ namespace AT.WebApi
             services.AddDbContext<ATDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IRepository<User>,UserRepository>();
             services.AddTransient<IRepository<Product>,ProductRepository>();
+            services.AddTransient<IRepository<ProductType>,ProductTypeRepository>();
             var mappingConfig = new MapperConfiguration(mc => 
                 {
                     mc.AddProfile(new UserUserForList());

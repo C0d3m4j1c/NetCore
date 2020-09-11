@@ -12,23 +12,7 @@ namespace AT.DataAccess.Repository
         public ProductRepository(ATDbContext Context)
         {
             context = Context;
-        }
-        public Product Create(Product Entity)
-        {
-            context.Products.Add(Entity);
-            context.SaveChanges();
-            return Entity;
-        }
-
-        public void Delete(Product Entity)
-        {
-            var productsToBeDeleted = context.Products.Find(Entity.Id);
-            if(productsToBeDeleted != null)
-            {
-                context.Products.Remove(productsToBeDeleted);
-                context.SaveChanges();
-            }
-        }
+        }       
 
         public IEnumerable<Product> GetAll()
         {
@@ -51,6 +35,23 @@ namespace AT.DataAccess.Repository
                 context.SaveChanges();
             }
             return productsToBeDeleted; 
+        }
+
+        public Product Create(Product Entity)
+        {
+            context.Products.Add(Entity);
+            context.SaveChanges();
+            return Entity;
+        }
+
+        public void Delete(Product Entity)
+        {
+            var productsToBeDeleted = context.Products.Find(Entity.Id);
+            if(productsToBeDeleted != null)
+            {
+                context.Products.Remove(productsToBeDeleted);
+                context.SaveChanges();
+            }
         }
     }
 }

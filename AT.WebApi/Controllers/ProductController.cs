@@ -37,5 +37,18 @@ namespace AT.WebApi.Controllers
             return Ok(productRepository.Create(ProductToBeCreated));
         }
 
+        [HttpDelete]
+        public ActionResult DeleteUser(Product Product)
+        {
+            productRepository.Delete(Product);
+            return Ok();
+        }
+
+        [HttpPut]
+        public ActionResult UpdateUser(Product Product)
+        {
+            var productUpdated = productRepository.Update(Product);
+            return Ok(productUpdated);
+        }
     }
 }
