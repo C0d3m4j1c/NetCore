@@ -9,6 +9,7 @@ namespace AT.Model.MapperProfiles
         public ProductForUpdateProduct()
         {
             CreateMap<ProductForUpdate,Product>()
+            .ForMember(dest => dest.Id, opt=>opt.MapFrom(src=>src.Id))
             .ForMember(dest => dest.ProductName, opt=>opt.MapFrom(src=>src.ProductName))
             .ForMember(dest => dest.ProductTypeId, opt =>opt.MapFrom(src=>src.ProductTypeId))
             ;

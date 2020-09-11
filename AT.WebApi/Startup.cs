@@ -52,6 +52,10 @@ namespace AT.WebApi
                     mc.AddProfile(new ProductForRegistrationProduct());
                     mc.AddProfile(new ProductForDeletionProduct());
                     mc.AddProfile(new ProductForUpdateProduct());
+                    mc.AddProfile(new ProductTypeProductTypeForList());
+                    mc.AddProfile(new ProductTypeForRegistrationProductType());
+                    mc.AddProfile(new ProductTypeForUpdateProductType());
+                    mc.AddProfile(new ProductTypeForDeletionProductType());
                 }
             );
 

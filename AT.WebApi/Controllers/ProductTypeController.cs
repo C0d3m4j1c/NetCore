@@ -13,14 +13,16 @@ namespace AT.WebApi.Controllers
     public class ProductTypeController : ControllerBase
     {
         private readonly IRepository<ProductType> productTypesRepository;
+        private readonly IMapper mapper;
         
-        public ProductTypeController(IRepository<ProductType> productTypesRepository)
+        public ProductTypeController(IRepository<ProductType> productTypesRepository, IMapper mapper)
         {
             this.productTypesRepository = productTypesRepository;
+            this.mapper = mapper;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<ProductType>> GetAll()
+        public ActionResult<IEnumerable<ProductTypeForList>> GetAll()
         {
             return Ok(productTypesRepository.GetAll().ToList());
         }
@@ -32,23 +34,23 @@ namespace AT.WebApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult<ProductType> Create(ProductType ProductToBeCreated)
+        public ActionResult<ProductType> Create(ProductTypeForRegistration ProductTypeToBeCreated)
         {
-            return Ok(productTypesRepository.Create(ProductToBeCreated));
+            return Ok(productTypesRepository.Create(mapper.Map<ProductTypeForRegistration, ProductType>(ProductTypeToBeCreated)));
         }
 
         [HttpDelete]
-        public ActionResult DeleteUser(ProductType Product)
+        public ActionResult DeleteUser(ProductTypeForDeletion ProductTypeToBeDeleted)
         {
-            productTypesRepository.Delete(Product);
+            productTypesRepository.Delete(mapper.Map<ProductTypeForDeletion, ProductType>(ProductTypeToBeDeleted));
             return Ok();
         }
 
         [HttpPut]
-        public ActionResult UpdateUser(ProductType Product)
+        public ActionResult UpdateUser(ProductTypeForUpdate ProductTypeToBeUpdated)
         {
-            var productUpdated = productTypesRepository.Update(Product);
-            return Ok(productUpdated);
+            var productTypeUpdated = productTypesRepository.Update(mapper.Map<ProductTypeForUpdate, ProductType>(ProductTypeToBeUpdated));
+            return Ok(productTypeUpdated);
         }
         
     }

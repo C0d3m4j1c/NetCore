@@ -26,14 +26,15 @@ namespace AT.DataAccess.Repository
 
         public ProductType Update(ProductType Entity)
         {
-            var productsTypeBeDeleted = context.ProductTypes.Find(Entity.Id);
-            if(productsTypeBeDeleted != null)
+            var productsTypeToBeUpdated = context.ProductTypes.Find(Entity.Id);
+            if(productsTypeToBeUpdated != null)
             {
-                productsTypeBeDeleted.ProductTypeName = Entity.ProductTypeName;
-                context.ProductTypes.Update(productsTypeBeDeleted);
+                productsTypeToBeUpdated.ProductTypeName = Entity.ProductTypeName;
+                productsTypeToBeUpdated.Comments = Entity.Comments;
+                context.ProductTypes.Update(productsTypeToBeUpdated);
                 context.SaveChanges();
             }
-            return productsTypeBeDeleted; 
+            return productsTypeToBeUpdated; 
         }        
 
         public ProductType Create(ProductType Entity)
@@ -45,10 +46,10 @@ namespace AT.DataAccess.Repository
 
         public void Delete(ProductType Entity)
         {
-            var productsToBeDeleted = context.ProductTypes.Find(Entity.Id);
-            if(productsToBeDeleted != null)
+            var productTypeToBeDeleted = context.ProductTypes.Find(Entity.Id);
+            if(productTypeToBeDeleted != null)
             {
-                context.ProductTypes.Remove(productsToBeDeleted);
+                context.ProductTypes.Remove(productTypeToBeDeleted);
                 context.SaveChanges();
             }
         }
