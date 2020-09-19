@@ -28,6 +28,9 @@ namespace AT.DataAccess.Data
         public virtual DbSet<User> Users{get;set;}
         public virtual DbSet<Product> Products{get;set;}
         public virtual DbSet<ProductType> ProductTypes{get;set;}
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<StudentCourse> StudentCourses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -35,6 +38,19 @@ namespace AT.DataAccess.Data
             modelBuilder.Entity<ProductType>().HasData(new ProductType {Id = 1, ProductTypeName = "Type1"});
             modelBuilder.Entity<ProductType>().HasData(new ProductType {Id = 2, ProductTypeName = "Type2"});
             modelBuilder.Entity<ProductType>().HasData(new ProductType {Id = 3, ProductTypeName = "Type3"});
+            
+            modelBuilder.Entity<StudentCourse>().HasKey(sc => new { sc.StudentId, sc.CourseId });
+
+            modelBuilder.Entity<StudentCourse>()
+                .HasOne<Student>(sc => sc.Student)
+                .WithMany(s => s.StudentCourses)
+                .HasForeignKey(sc => sc.StudentId);
+
+
+            modelBuilder.Entity<StudentCourse>()
+                .HasOne<Course>(sc => sc.Course)
+                .WithMany(s => s.StudentCourses)
+                .HasForeignKey(sc => sc.CourseId);
             #endregion
         }
     }
