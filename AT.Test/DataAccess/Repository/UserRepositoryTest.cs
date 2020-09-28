@@ -56,14 +56,14 @@ namespace AT.Test.DataAccess.Repository
             Assert.That(newUser.UserName, Is.EqualTo(result.UserName));
         }
 
-        [TestCase(2)]
+        [TestCase(1)]
         [Test]
         public void ShouldDeleteAUserThatExists(int Id)
         {
             IRepository<User> userRepo = new UserRepository(context);
             User userToBeDeleated = new User {Id = Id};
             User result = userRepo.Delete(userToBeDeleated);
-            Assert.That(result, Is.EqualTo(userToBeDeleated)); 
+            Assert.That(result.Id, Is.EqualTo(userToBeDeleated.Id)); 
         }
 
         [TestCase(1,"test", false)]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ONRai/RC0uD7zZuANkNMX25IQUtwYX3RGY1L+gBwxwub/gKHg3ypSInHvdDiv3G719oM5RWSW9+T+YPsQggEhA==",
+  "dgSpecHash": "owbX7uCj3TW/Do0EpniAPLKbOtMBTfYmrLlUfSuHpupN6WvlXtX7ZYScXVxeTIO/pF+hHocbEJBsJ+tJclfiiA==",
   "success": true,
   "projectFilePath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\AT.Test.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.6\\microsoft.entityframeworkcore.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.6\\microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.6\\microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
+    "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.6\\microsoft.entityframeworkcore.inmemory.3.1.6.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.6\\microsoft.entityframeworkcore.relational.3.1.6.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.6\\microsoft.entityframeworkcore.sqlserver.3.1.6.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.6\\microsoft.entityframeworkcore.tools.3.1.6.nupkg.sha512",
