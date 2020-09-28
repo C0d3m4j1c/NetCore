@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i9dfQ1QlOYhwrEnsdBrP4ARg2/pYVk984RFK6gBRjvg1swHkNQ/ULkasr8b7qEPIF3ZX3ez2wA6d7ROMBmxV4A==",
+  "dgSpecHash": "PNsya+1M+wW4gQSRZZMQ+xV+chk76Vr1DI9rhlNbq0rd0/LH/7PxAk6auQ7dRBBoOden9+nQRk94KeUrSM7Ayw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj",
+  "projectFilePath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

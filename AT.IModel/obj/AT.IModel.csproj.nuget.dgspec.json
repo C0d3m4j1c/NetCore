@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {}
+    "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
+    "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj",
+        "projectUniqueName": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj",
         "projectName": "AT.IModel",
-        "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj",
+        "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\AT.IModel.csproj",
         "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\obj\\",
+        "outputPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

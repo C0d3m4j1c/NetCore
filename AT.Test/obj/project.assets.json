@@ -7220,11 +7220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\AT.Test.csproj",
+      "projectUniqueName": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\AT.Test.csproj",
       "projectName": "AT.Test",
-      "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\AT.Test.csproj",
+      "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\AT.Test.csproj",
       "packagesPath": "C:\\Users\\salvador.jimenez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\obj\\",
+      "outputPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -7245,14 +7245,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj": {
-              "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj"
+            "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+              "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.IDataAccess\\AT.IDataAccess.csproj"
             },
-            "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj": {
-              "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj"
+            "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj": {
+              "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj"
             },
-            "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj": {
-              "projectPath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj"
+            "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj": {
+              "projectPath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.WebApi\\AT.WebApi.csproj"
             }
           }
         }

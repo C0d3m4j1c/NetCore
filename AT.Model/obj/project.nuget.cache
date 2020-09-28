@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7MRxMR+uGBClr4KUjyLOpFx9mCkOcr76pZnP/sJMDGlAcOC1r87vpGuY2mnUZRPg3+3AQEnQ2BzNXeWuc4eZg==",
+  "dgSpecHash": "lbrwqSZN9rvTXNRSBLWylj67LZwnf8IfkR8s1TxjHhxkSn8OvZOtPcsD6y4JACgO1y19CCAyDrJo7AzTDc1cEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
+  "projectFilePath": "c:\\Users\\salvador.jimenez\\source\\repos\\Training NET\\WebApi\\AT.Model\\AT.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\salvador.jimenez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
