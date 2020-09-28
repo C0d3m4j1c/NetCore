@@ -12,7 +12,7 @@ namespace AT.IDataAccess.IRepository
 
         IEntity Update(IEntity Entity);
 
-        void Delete(IEntity Entity);
+        IEntity Delete(IEntity Entity);
 
     }
 }

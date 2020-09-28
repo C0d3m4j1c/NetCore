@@ -62,14 +62,14 @@ namespace AT.Test.DataAccess.Repository
         {
             IRepository<User> userRepo = new UserRepository(context);
             User userToBeDeleated = new User {Id = Id};
-            //User result = userRepo.Delete(userToBeDeleated);
-            //Assert.That(result, Is.EqualTo(userToBeDeleated)); 
+            User result = userRepo.Delete(userToBeDeleated);
+            Assert.That(result, Is.EqualTo(userToBeDeleated)); 
         }
         
         [Test]
         public void ShouldUpdateAUser()
         {
-
+            
         }
     }
 }

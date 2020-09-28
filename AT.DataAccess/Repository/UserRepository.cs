@@ -20,7 +20,7 @@ namespace AT.DataAccess.Repository
             return Entity;
         }
 
-        public void Delete(User Entity)
+        public User Delete(User Entity)
         {
             var userToBeDeleted = context.Users.Find(Entity.Id);
             if(userToBeDeleted != null)
@@ -28,7 +28,7 @@ namespace AT.DataAccess.Repository
                 context.Users.Remove(userToBeDeleted);
                 context.SaveChanges();
             }
-            
+            return userToBeDeleted;
         }
 
         public IEnumerable<User> GetAll()
@@ -52,6 +52,6 @@ namespace AT.DataAccess.Repository
                 context.SaveChanges();
             }
             return userToBeUpdated; 
-        }
+        }        
     }
 }

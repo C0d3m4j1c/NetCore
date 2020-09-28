@@ -44,7 +44,7 @@ namespace AT.DataAccess.Repository
             return Entity;
         }
 
-        public void Delete(Product Entity)
+        public Product Delete(Product Entity)
         {
             var productsToBeDeleted = context.Products.Find(Entity.Id);
             if(productsToBeDeleted != null)
@@ -52,6 +52,7 @@ namespace AT.DataAccess.Repository
                 context.Products.Remove(productsToBeDeleted);
                 context.SaveChanges();
             }
+            return productsToBeDeleted;
         }
     }
 }
