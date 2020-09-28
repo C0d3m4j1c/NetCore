@@ -27,8 +27,9 @@ namespace AT.DataAccess.Repository
             {
                 context.Users.Remove(userToBeDeleted);
                 context.SaveChanges();
+                return userToBeDeleted;
             }
-            return userToBeDeleted;
+            return null; 
         }
 
         public IEnumerable<User> GetAll()
@@ -50,8 +51,9 @@ namespace AT.DataAccess.Repository
                 userToBeUpdated.IsDeleted = Entity.IsDeleted;
                 context.Users.Update(userToBeUpdated);
                 context.SaveChanges();
+                return userToBeUpdated;
             }
-            return userToBeUpdated; 
+            return null; 
         }        
     }
 }

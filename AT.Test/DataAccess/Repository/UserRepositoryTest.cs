@@ -65,11 +65,15 @@ namespace AT.Test.DataAccess.Repository
             User result = userRepo.Delete(userToBeDeleated);
             Assert.That(result, Is.EqualTo(userToBeDeleated)); 
         }
-        
+
+        [TestCase(3,"test name", false)]
         [Test]
-        public void ShouldUpdateAUser()
+        public void ShouldUpdateAUser(int Id, string Username, bool isDeleted)
         {
-            
+            IRepository<User> userRepo = new UserRepository(context);
+            User userToBeUpdated = new User {Id = Id, UserName = Username, IsDeleted = isDeleted};
+            User result = userRepo.Update(userToBeUpdated);
+            Assert.That(result, Is.EqualTo(userToBeUpdated));
         }
     }
 }
