@@ -153,3 +153,5 @@ C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Test\bin\Debug\net
 C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
+c:\Users\salvador.jimenez\source\repos\Training NET\WebApi\AT.Test\bin\Debug\netcoreapp3.1\Moq.dll

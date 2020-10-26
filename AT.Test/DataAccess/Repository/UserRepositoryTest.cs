@@ -20,8 +20,9 @@ namespace AT.Test.DataAccess.Repository
             config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
             var optionsBuilder= new DbContextOptionsBuilder<ATDbContext>();
             optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
-            context=new ATDbContext(optionsBuilder.Options,config);      
+            context= new ATDbContext(optionsBuilder.Options,config);      
         }
+        
         [Test]
         public void ShouldGetAllUsers()
         {
