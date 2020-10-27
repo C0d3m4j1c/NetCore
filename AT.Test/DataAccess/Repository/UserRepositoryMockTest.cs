@@ -22,11 +22,6 @@ namespace AT.Test.DataAccess.Repository
         [SetUp]
         public void Setup()
         {
-            /*config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-            var optionsBuilder= new DbContextOptionsBuilder<ATDbContext>();
-            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
-            context= new ATDbContext(optionsBuilder.Options,config); 
-            _userRepository = new UserRepository(context);*/
             _userRepository = new Mock<IRepository<User>>();
         }
 
